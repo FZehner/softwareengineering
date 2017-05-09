@@ -4,6 +4,7 @@ import java.util.*;
 import java.util.logging.Logger;
 
 class Customer {
+    private static final Logger LOG = Logger.getLogger(Customer.class.getName());
     private String name;
     private Vector rentals = new Vector();
     Customer (String newname){
@@ -64,7 +65,6 @@ class Customer {
         }
         return thisAmount;
     }
-    private static final Logger LOG = Logger.getLogger(Customer.class.getName());
 
 }
     

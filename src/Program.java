@@ -8,6 +8,7 @@ import java.util.logging.Logger;
  */
 public class Program
 {
+    private static final Logger LOG = Logger.getLogger(Program.class.getName());
     /**
      * This is the main entry point for the application
      */
@@ -27,7 +28,6 @@ public class Program
         result = c1.statement();
         System.out.println(result);
     }
-    private static final Logger LOG = Logger.getLogger(Program.class.getName());
 }
 
 
