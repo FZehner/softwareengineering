@@ -1,5 +1,4 @@
 import java.lang.*;
-import java.util.*;
 import java.util.logging.Logger;
 /**
  * Note that Java console applications need to be run through the java runtime
