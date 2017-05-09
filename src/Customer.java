@@ -5,7 +5,7 @@ import java.util.*;
 class Customer {
     private String name;
     private Vector rentals = new Vector();
-    public Customer (String newname){
+    Customer (String newname){
         name = newname;
     };
     public void addRental(Rental arg) {
