@@ -1,6 +1,7 @@
 
 import java.lang.*;
 import java.util.*;
+import java.util.logging.Logger;
 
 class Customer {
     private String name;
@@ -63,6 +64,7 @@ class Customer {
         }
         return thisAmount;
     }
+    private static final Logger LOG = Logger.getLogger(Customer.class.getName());
 
 }
     

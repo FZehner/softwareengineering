@@ -1,3 +1,6 @@
+
+import java.util.logging.Logger;
+
 class Rental {
     private Movie movie;
     private int daysRented;
@@ -11,4 +14,5 @@ class Rental {
     public Movie getMovie() {
         return movie;
     }
+    private static final Logger LOG = Logger.getLogger(Rental.class.getName());
 }
