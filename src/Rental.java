@@ -3,8 +3,8 @@ import java.util.logging.Logger;
 
 class Rental {
     private static final Logger LOG = Logger.getLogger(Rental.class.getName());
-    private Movie movie;
-    private int daysRented;
+    private final Movie movie;
+    private final int daysRented;
     Rental(Movie newmovie, int newdaysRented) {
         movie = newmovie;
         daysRented = newdaysRented;

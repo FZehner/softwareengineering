@@ -4,8 +4,8 @@ import java.util.logging.Logger;
 
 class Customer {
     private static final Logger LOG = Logger.getLogger(Customer.class.getName());
-    private String name;
-    private Vector rentals = new Vector();
+    private final String name;
+    private final Vector rentals = new Vector();
     Customer (String newname){
         name = newname;
     };

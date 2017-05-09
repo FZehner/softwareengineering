@@ -6,7 +6,7 @@ public class Movie {
     public static final int REGULAR = 0;
     public static final int NEW_RELEASE = 1;
     private static final Logger LOG = Logger.getLogger(Movie.class.getName());
-    private String title;
+    private final String title;
     private int priceCode;
     public Movie(String newtitle, int newpriceCode) {
         title = newtitle;
